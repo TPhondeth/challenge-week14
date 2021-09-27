@@ -142,10 +142,13 @@ main {
     line-height: 150%;
 }
 
-.post .title span {
-    font-style: italic;
+.post span {
     font-size: 90%;
     color: #7d7d7d;
+}
+
+h2 {
+    font-size: 25px;
 }
 
 .edit-link {
@@ -170,6 +173,10 @@ main {
     font-size: 90%;
     margin-bottom: .5%;
     opacity: .6;
+}
+
+.meta p {
+    width: 75%;
 }
 
 .new-post-form input {
