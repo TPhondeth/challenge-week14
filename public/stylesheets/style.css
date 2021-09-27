@@ -35,16 +35,14 @@ a {
     font-weight: bold;
 }
 
-.nav {
+.nav,
+.login {
     color: #D3EFBD;
+    padding: 40px;
 }
 
 a:hover {
     color: #3486eb;
-}
-
-p {
-    color: black;
 }
 
 button {
