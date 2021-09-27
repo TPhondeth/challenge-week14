@@ -9,7 +9,24 @@ html {
     margin: 0;
     font-family: sans-serif;
     color: #333;
+}
+
+main {
     background-color: #D3EFBD;
+    color: black;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
 }
 
 a {
@@ -18,8 +35,16 @@ a {
     font-weight: bold;
 }
 
+.nav {
+    color: #D3EFBD;
+}
+
 a:hover {
     color: #3486eb;
+}
+
+p {
+    color: black;
 }
 
 button {
@@ -90,11 +115,10 @@ header {
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: #D3EFBD;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
-    margin-left: 16px;
 }
 
 main {
